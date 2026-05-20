@@ -23,6 +23,16 @@ export default function EvidencePage() {
       value: "100%",
     },
     {
+      title: "Probability Of Saying 'Bro'",
+      value: "100%",
+      desc: "Even during serious conversations.",
+    },
+    {
+      title: "Sleep Schedule Stability",
+      value: "3%",
+      desc: "Mostly powered by chaos and reels.",
+    },
+    {
       title: "Emotional Stability",
       value: "Classified",
     },
