@@ -9,25 +9,28 @@ export default function ConclusionPage() {
         </p>
 
         <h1 className="text-6xl md:text-7xl font-black leading-tight mb-12">
-          So... What Is
+          So..What is the
           <br />
-          Shweta To You?
+          Final Verdict?
         </h1>
 
         <p className="text-zinc-500 mb-10 text-xl">
           (Question directed to Prithvi)
         </p>
 
-        {/* FINAL VIDEO */}
+        <div className="relative w-full overflow-hidden rounded-[2rem] border border-zinc-800 shadow-2xl aspect-video">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/m9BfGewOvxU"
+            title="Final Message"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
 
-        <video
-          controls
-          className="w-full rounded-[2rem] border border-zinc-800 shadow-2xl"
-        >
-          <source src="/videos/final.mp4" type="video/mp4" />
-        </video>
-
-        <p className="text-zinc-500 mt-6 mb-16"></p>
+        <p className="text-zinc-500 mt-6 mb-16">
+          Final statement recorded by Prithvi Nakadi.
+        </p>
 
         <Link href="/">
           <button className="bg-white text-black px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-all duration-300">

@@ -10,16 +10,22 @@ export default function ReviewsPage() {
           Statements collected from people who survived interaction with Shweta.
         </p>
 
-        {/* BOYFRIEND VIDEO */}
-
         <div className="bg-zinc-900 border border-zinc-800 rounded-[2rem] p-8">
-          <h2 className="text-3xl font-bold mb-6">Review From Boyfriend</h2>
+          <h2 className="text-3xl font-bold mb-6">xyz</h2>
 
-          <video controls className="w-full rounded-3xl">
-            <source src="/videos/boyfriend.mp4" type="video/mp4" />
-          </video>
+          <div className="relative w-full overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl aspect-video">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="PASTE_BOYFRIEND_YOUTUBE_EMBED_LINK_HERE"
+              title="Boyfriend Review"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
 
-          <p className="text-zinc-500 mt-6">Hehehehe.</p>
+          <p className="text-zinc-500 mt-6">
+            Official witness statement submitted for documentary purposes.
+          </p>
         </div>
 
         <div className="mt-16 flex justify-center gap-6 flex-wrap">
