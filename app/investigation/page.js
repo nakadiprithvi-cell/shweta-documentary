@@ -24,7 +24,8 @@ export default function InvestigationPage() {
     },
     {
       q: "What is Shweta's biggest talent?",
-      correct: "Saying IM coming 5 mins while Still on being on bed",
+      correct:
+        "Saying Im coming WHile Still Being on Bed, She is Never on Timeeeeee",
     },
     {
       q: "Would you describe Shweta as peaceful?",
