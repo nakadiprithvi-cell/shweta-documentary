@@ -33,12 +33,6 @@ export default function HomePage() {
                 Begin Investigation
               </button>
             </Link>
-
-            <Link href="/evidence">
-              <button className="border border-zinc-700 px-8 py-4 rounded-2xl text-zinc-300 hover:bg-zinc-900 transition-all duration-300">
-                View Evidence
-              </button>
-            </Link>
           </div>
         </div>
 

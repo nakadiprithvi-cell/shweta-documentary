@@ -29,15 +29,10 @@ export default function ReviewsPage() {
         </div>
 
         <div className="mt-16 flex justify-center gap-6 flex-wrap">
-          <Link href="/">
-            <button className="bg-white text-black px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-all duration-300">
-              Return Home
-            </button>
-          </Link>
-
           <Link href="/evidence">
             <button className="border border-zinc-700 px-8 py-4 rounded-2xl hover:bg-zinc-900 transition-all duration-300">
-              Click To View Evidence
+              Click To View Evidence New evidence has been recovered. Continue
+              the investigation.
             </button>
           </Link>
         </div>
