@@ -16,7 +16,7 @@ export default function ReviewsPage() {
           <div className="relative w-full overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl aspect-video">
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="PASTE_BOYFRIEND_YOUTUBE_EMBED_LINK_HERE"
+              src="https://www.youtube.com/embed/ltbXJFCy5qM"
               title="Boyfriend Review"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
